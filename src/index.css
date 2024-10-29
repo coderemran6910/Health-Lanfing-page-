@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.serif-font {
+    font-family: 'Source Serif 4', serif;
+    line-height: 1.8; /* adjust as needed */
+  }
+
+body {
+    font-family: 'Inter', sans-serif;
+  }
+.bannerSpan {
+    font-family: 'Source Serif 4', serif;
+}
+.bennerText{
+    line-height: 90px !important 
+}
+
